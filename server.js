@@ -6,10 +6,10 @@ app.use('/',(req,res)=>{
     res.send("Default root level");
 })
 
-app.use('/apis',(req,res)=>{
+app.use('/api',(req,res)=>{
     res.send("Default root level level");
 })
 
-app.listen(PORT,()=>{
-    console.log(`Server running at ${PORT}`);
+app.listen(()=>{
+    console.log(`Server running at `);
 })
